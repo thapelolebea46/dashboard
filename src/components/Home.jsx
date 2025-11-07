@@ -1,4 +1,5 @@
 import DashboardGrid from "./DashboardGrid";
+import Footer from "./Footer";
 import Navbar from "./Navbar"
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Navbar user="Thapelo Lebea"/>
             <DashboardGrid/>
+            <Footer/>
         </div>
     );
 
